@@ -1,6 +1,6 @@
 # dsh-plugins
 
-我设计的 DeepSeek Harness（DSH）插件合集。这里汇总所有自研插件，每个插件在自己的仓库中维护，并回链到本索引。
+DoiiarX 设计和维护的 DeepSeek Harness（DSH）插件合集。这里汇总所有自研插件，每个插件在自己的仓库中维护，并回链到本索引。
 
 ## 插件列表
 
