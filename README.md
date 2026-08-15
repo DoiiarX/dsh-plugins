@@ -17,6 +17,7 @@ DoiiarX 设计和维护的 DeepSeek Harness（DSH）插件合集。这里汇总�
 | 工作区 Board | `@local/dsh-board-plugin` | 工作区级持久共享工作台：多 agent 集群并行基础能力（8 个工具） | 待开源 | 📝 本地 |
 | OpenAPI 工具 | `@local/dsh-oneapi-plugin` | 桥接 OpenAI tools/functions 与 OpenAPI 3.x 格式，注册为可搜索、可调用的函数 | [dsh-oneapi-plugin](https://github.com/DoiiarX/dsh-oneapi-plugin) | ✅ 已开源 |
 | JSON 扁平化 | `@local/dsh-json-flat-plugin` | JSON 扁平视图/编辑工具（schema 推断、搜索、路径编辑） | [dsh-json-flat-plugin](https://github.com/DoiiarX/dsh-json-flat-plugin) | ✅ 已开源 |
+| 会话 URL 深链 | `@local/dsh-session-url-plugin` | 会话 URL 同步 + 深链：切换会话写入 `?session=`，`?q=`/`?prompt=` 开新对话自动发送 | [dsh-session-url-plugin](https://github.com/DoiiarX/dsh-session-url-plugin) | ✅ 已开源 |
 
 ## 安装
 
