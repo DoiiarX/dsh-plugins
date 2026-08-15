@@ -27,7 +27,7 @@
 ```json
 {
   "dependencies": {
-    "@local/dsh-xget": "link:D:/Programs/dsh-xget-plugin"
+    "@local/dsh-xget": "link:<本机插件目录绝对路径>"
   },
   "dsh": {
     "profile": {
