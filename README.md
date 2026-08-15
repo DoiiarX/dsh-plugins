@@ -9,12 +9,12 @@ DoiiarX 设计和维护的 DeepSeek Harness（DSH）插件合集。这里汇总�
 | Xget 加速 | `@local/dsh-xget` | 在设置页配置 xget 镜像，自动为 npm/npx、pip、git、Go、Hugging Face 注入加速代理环境变量 | [dsh-xget-plugin](https://github.com/DoiiarX/dsh-xget-plugin) | ✅ 已开源 |
 | 应答语言 | `@local/dsh-user-language` | Web 设置页「用户语言」小节 + 系统提示词语言注入，避免中文提问得英文回复 | [dsh-user-language](https://github.com/DoiiarX/dsh-user-language) | ✅ 已开源 |
 | 设置搜索 | `@doiiarx/dsh-settings-search-plugin` | 设置面板独立搜索：候选列表 + 点击跳转到所属小节并聚焦 | [dsh-settings-search-plugin](https://github.com/DoiiarX/dsh-settings-search-plugin) | ✅ 已开源 |
-| Windows Shell | `@local/dsh-tool-cmd` | 可配置的 Windows shell：独立注册 cmd/bash/pwsh 工具，禁用系统 pwsh | 待开源 | 📝 本地 |
-| 天气 | `@local/dsh-weather-plugin` | 封装 wttr.in 天气 API 为模型工具 | 待开源 | 📝 本地 |
-| 网络代理 | `@local/dsh-proxy-plugin` | 提供网络代理能力（socks5h/http） | 待开源 | 📝 本地 |
+| Windows Shell | `@local/dsh-shell-plugin` | 可配置的 Windows shell：独立注册 cmd/bash/pwsh 工具，禁用系统 pwsh | [dsh-shell-plugin](https://github.com/DoiiarX/dsh-shell-plugin) | ✅ 已开源 |
+| 天气 | `@local/dsh-weather-plugin` | 封装 wttr.in 天气 API 为模型工具 | [dsh-weather-plugin](https://github.com/DoiiarX/dsh-weather-plugin) | ✅ 已开源 |
+| 网络代理 | `@local/dsh-proxy-plugin` | 提供网络代理能力（socks5h/http） | [dsh-proxy-plugin](https://github.com/DoiiarX/dsh-proxy-plugin) | ✅ 已开源 |
 | 工作区 Board | `@local/dsh-board-plugin` | 工作区级持久共享工作台：多 agent 集群并行基础能力（8 个工具） | 待开源 | 📝 本地 |
-| OpenAPI 工具 | `@local/dsh-oneapi-plugin` | 桥接 OpenAI tools/functions 与 OpenAPI 3.x 格式，注册为可搜索、可调用的函数 | 待开源 | 📝 本地 |
-| JSON 扁平化 | `@local/dsh-json-flat-plugin` | JSON 扁平视图/编辑工具（schema 推断、搜索、路径编辑） | 待开源 | 📝 本地 |
+| OpenAPI 工具 | `@local/dsh-oneapi-plugin` | 桥接 OpenAI tools/functions 与 OpenAPI 3.x 格式，注册为可搜索、可调用的函数 | [dsh-oneapi-plugin](https://github.com/DoiiarX/dsh-oneapi-plugin) | ✅ 已开源 |
+| JSON 扁平化 | `@local/dsh-json-flat-plugin` | JSON 扁平视图/编辑工具（schema 推断、搜索、路径编辑） | [dsh-json-flat-plugin](https://github.com/DoiiarX/dsh-json-flat-plugin) | ✅ 已开源 |
 
 ## 安装
 
