@@ -7,6 +7,7 @@ DoiiarX 设计和维护的 DeepSeek Harness（DSH）插件合集。这里汇总�
 | 插件 | 包名 | 说明 | 仓库 | 状态 |
 | --- | --- | --- | --- | --- |
 | Xget 加速 | `@local/dsh-xget` | 在设置页配置 xget 镜像，自动为 npm/npx、pip、git、Go、Hugging Face 注入加速代理环境变量 | [dsh-xget-plugin](https://github.com/DoiiarX/dsh-xget-plugin) | ✅ 已开源 |
+| 重启遗言 | `@local/dsh-handoff-plugin` | 重启 handoff（handoff_save/clear/at_restart 三工具 + 重启后自动恢复提醒），从 harness 仓库剥离的纯 JS 版 | [dsh-handoff-plugin](https://github.com/DoiiarX/dsh-handoff-plugin) | ✅ 已开源 |
 | 应答语言 | `@local/dsh-user-language` | Web 设置页「用户语言」小节 + 系统提示词语言注入，避免中文提问得英文回复 | [dsh-user-language](https://github.com/DoiiarX/dsh-user-language) | ✅ 已开源 |
 | Todo 门禁 | `@local/dsh-todo-continuation` | 停止门禁 + 无 Todo/过期 Todo 提示：未完成不放行结束，长期不用或不更新 Todo 时建议性提示，阈值可在设置页配置 | [dsh-todo-continuation](https://github.com/DoiiarX/dsh-todo-continuation) | ✅ 已开源 |
 | 设置搜索 | `@doiiarx/dsh-settings-search-plugin` | 设置面板独立搜索：候选列表 + 点击跳转到所属小节并聚焦 | [dsh-settings-search-plugin](https://github.com/DoiiarX/dsh-settings-search-plugin) | ✅ 已开源 |
