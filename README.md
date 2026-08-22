@@ -18,6 +18,7 @@
 | OpenAPI 工具 | `@doiiarx/dsh-openapi-plugin` | 桥接 OpenAI tools/functions 与 OpenAPI 3.x 格式，注册为可搜索、可调用的函数 | [dsh-openapi-plugin](https://github.com/DoiiarX/dsh-openapi-plugin) | ✅ 已开源 |
 | JSON 扁平化 | `@doiiarx/dsh-json-flat-plugin` | JSON 扁平视图/编辑工具（schema 推断、搜索、路径编辑） | [dsh-json-flat-plugin](https://github.com/DoiiarX/dsh-json-flat-plugin) | ✅ 已开源 |
 | 会话 URL 深链 | `@doiiarx/dsh-session-url-plugin` | 会话 URL 同步 + 深链：切换会话写入 `?session=`，`?q=`/`?prompt=` 开新对话自动发送 | [dsh-session-url-plugin](https://github.com/DoiiarX/dsh-session-url-plugin) | ✅ 已开源 |
+| 时间流逝提示 | `@doiiarx/dsh-timegap-plugin` | 用户在空闲一段时间后恢复对话时，向模型注入相对经过时长与绝对时间，避免把对话误判为连续发生 | [dsh-timegap-plugin](https://github.com/DoiiarX/dsh-timegap-plugin) | ✅ 已开源 |
 
 ## 安装
 
